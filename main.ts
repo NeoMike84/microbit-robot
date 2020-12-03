@@ -48,5 +48,5 @@ function robotTourneDroiteSurPlace () {
 }
 PCA9685.init(67, 0)
 basic.forever(function () {
-	
+    music.startMelody(music.builtInMelody(Melodies.Blues), MelodyOptions.Once)
 })
