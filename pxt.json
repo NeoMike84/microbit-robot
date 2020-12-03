@@ -1,5 +1,5 @@
 {
-    "name": "Base Robot",
+    "name": "Base Robot C",
     "description": "",
     "dependencies": {
         "core": "*",

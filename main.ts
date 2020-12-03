@@ -47,14 +47,6 @@ function robotTourneDroiteSurPlace () {
     PCA9685.setLedDutyCycle(PCA9685.LEDNum.LED4, 50, 67)
 }
 PCA9685.init(67, 0)
-let anneauLED = neopixel.create(DigitalPin.P5, 18, NeoPixelMode.RGB)
 basic.forever(function () {
-    basic.showLeds(`
-        . . . . .
-        . # . # .
-        . . . . .
-        # . . . #
-        . # # # .
-        `)
-    anneauLED.showRainbow(1, 360)
+	
 })
