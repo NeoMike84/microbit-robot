@@ -6,7 +6,8 @@
         "radio": "*",
         "microphone": "*",
         "pxt-pca9685": "github:jdarling/pxt-pca9685#v0.0.5",
-        "neopixel": "github:microsoft/pxt-neopixel#v0.7.3"
+        "neopixel": "github:microsoft/pxt-neopixel#v0.7.3",
+        "pxt-sonar": "github:microsoft/pxt-sonar#v0.0.5"
     },
     "files": [
         "main.blocks",
