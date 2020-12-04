@@ -48,11 +48,11 @@ function robotTourneDroiteSurPlace () {
 }
 let obtsDroite = 0
 let obstGauche = 0
+let radar = 0
 PCA9685.init(67, 0)
 let anneauLED = neopixel.create(DigitalPin.P5, 18, NeoPixelMode.RGB)
 let anneauDroite = anneauLED.range(0, 9)
 let anneauGauche = anneauLED.range(9, 9)
-let radar = 0
 pins.setPull(DigitalPin.P2, PinPullMode.PullUp)
 pins.setPull(DigitalPin.P11, PinPullMode.PullUp)
 basic.forever(function () {
